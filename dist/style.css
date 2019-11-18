@@ -1,0 +1,38 @@
+.colorh3, h3 {
+  color: #2c3e50;
+}
+
+.colora, a {
+  color: #B8DBD9;
+}
+
+p {
+  color: #04724D;
+  text-align: justify;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.intro h1 {
+  display: flex;
+  justify-content: center;
+  transition: 0.2s;
+}
+.intro h1:hover {
+  color: #04724D;
+}
+
+.intro h2:hover {
+  color: #04724D;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -2,7 +2,7 @@
 @import "variables.scss";
 
 .colorh3{
-    color: $light;
+    color: $dark;
 }
 
 h3{
@@ -19,14 +19,15 @@ a{
 
 p{
     color: $titre;
-    @include font-size;
+    @include font-style;
 }
 
 footer{
     display: flex;
     justify-content: center;
     a{
-        @include decoration;
+        list-style-type: none;
+        text-decoration: none;
     }
 }
 
