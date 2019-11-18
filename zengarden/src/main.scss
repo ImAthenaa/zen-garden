@@ -26,5 +26,9 @@ footer{
     h1{
         display: flex;
         justify-content: center;
+        transition: 0.2s;
+        &:hover{
+            background: $titre;
+        }
     }
 }
