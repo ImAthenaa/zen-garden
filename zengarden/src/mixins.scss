@@ -1,0 +1,10 @@
+@mixin font-style{
+    text-align: justify;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@mixin decoration{
+    list-style-type: none;
+    text-decoration: none;
+}

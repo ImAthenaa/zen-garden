@@ -19,14 +19,14 @@ a{
 
 p{
     color: $titre;
+    @include font-size;
 }
 
 footer{
     display: flex;
     justify-content: center;
     a{
-        list-style-type: none;
-        text-decoration: none;
+        @include decoration;
     }
 }
 
