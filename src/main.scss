@@ -1,6 +1,10 @@
 @import "mixins.scss";
 @import "variables.scss";
 
-h1{
+h3{
     color: $titre;
+}
+
+a href{
+    color: $link;
 }
