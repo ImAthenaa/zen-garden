@@ -15,6 +15,7 @@ h3{
 
 a{
     @extend .colora;
+    @include decoration;
 }
 
 p{
