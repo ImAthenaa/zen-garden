@@ -15,7 +15,6 @@ h3{
 
 a{
     @extend .colora;
-    @include decoration;
 }
 
 p{
@@ -27,8 +26,7 @@ footer{
     display: flex;
     justify-content: center;
     a{
-        list-style-type: none;
-        text-decoration: none;
+        @include decoration;
     }
 }
 
