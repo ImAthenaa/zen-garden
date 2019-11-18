@@ -2,12 +2,21 @@ h3 {
   color: #F4F4F9;
 }
 
-a href {
+a {
   color: #B8DBD9;
 }
 
 p {
   color: #04724D;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

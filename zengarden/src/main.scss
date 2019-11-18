@@ -5,10 +5,19 @@ h3{
     color: $light;
 }
 
-a href{
+a{
     color: $link;
 }
 
 p{
     color: $titre;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    a{
+        list-style-type: none;
+        text-decoration: none;
+    }
 }
