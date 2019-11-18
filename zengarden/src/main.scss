@@ -1,12 +1,20 @@
 @import "mixins.scss";
 @import "variables.scss";
 
-h3{
+.colorh3{
     color: $light;
 }
 
-a{
+h3{
+    @extend .colorh3;
+}
+
+.colora{
     color: $link;
+}
+
+a{
+    @extend .colora;
 }
 
 p{
@@ -40,3 +48,4 @@ footer{
         }
     }
 }
+
