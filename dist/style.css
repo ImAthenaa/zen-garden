@@ -25,7 +25,11 @@ footer a {
   transition: 0.2s;
 }
 .intro h1:hover {
-  background: #04724D;
+  color: #04724D;
+}
+
+.intro h2:hover {
+  color: #04724D;
 }
 
 /*# sourceMappingURL=style.css.map */

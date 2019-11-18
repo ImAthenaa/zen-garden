@@ -28,7 +28,15 @@ footer{
         justify-content: center;
         transition: 0.2s;
         &:hover{
-            background: $titre;
+            color: $titre;
+        }
+    }
+}
+
+.intro{
+    h2{
+        &:hover{
+        color: $titre;
         }
     }
 }
