@@ -2,9 +2,13 @@
 @import "variables.scss";
 
 h3{
-    color: $titre;
+    color: $light;
 }
 
 a href{
     color: $link;
+}
+
+p{
+    color: $titre;
 }
